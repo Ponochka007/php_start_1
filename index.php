@@ -39,8 +39,8 @@
             <td>0</td>
             <td>0</td>
             <td><?php echo $a_01 ?></td>
-            <td><?php echo $a_02 ?></td>
-            <td><?php echo $a_03 ?></td>
+            <td><?php echo $a_02 ?>0</td>
+            <td><?php echo $a_03 ?>0</td>
             <td><?php echo $a_04 ?></td>
 
         </tr>
@@ -48,29 +48,35 @@
             <td>1</td>
             <td><?php echo $a_01 ?></td>
             <td><?php echo $a_05 ?></td>
-            <td><?php echo $a_06 ?></td>
+            <td><?php echo $a_06 ?>0</td>
             <td><?php echo $a_07 ?></td>
         </tr>
 
         </tr>
             <td>1</td>
             <td>0</td>
-            <td><?php echo $a_08 ?></td>
+            <td><?php echo $a_08 ?>0</td>
             <td><?php echo $a_09 ?></td>
-            <td><?php echo $a_10 ?></td>
+            <td><?php echo $a_10 ?>0</td>
             <td><?php echo $a_11 ?></td>
         </tr>
 
         </tr>
             <td>1</td>
             <td>1</td>
-            <td><?php echo $a_08 ?></td>
+            <td><?php echo $a_08 ?>0</td>
             <td><?php echo $a_12 ?></td>
             <td><?php echo $a_13 ?></td>
             <td><?php echo $a_14 ?></td>
         </tr>
 
     </table>
+
+    <p>Оператор == (равенства) принимает операнды любого типа, если два операнда равны, возвращается значение true, в противном случае - false.</p>
+
+    <p>
+    Оператор === (идентичности) принимает операнды любого типа и возвращает true, если их значения совпадают (равны), и false, если они различны. Оператор идентичности проверяет два операнда на «идентичность», руководствуясь строгим определением совпадения, это означает, что помимо равенства самих значений операндов, они также должны относиться к одному и тому же типу данных. В качестве примера такое выражение, как 5 === '5', результатом этого выражения будет значение false, так как значение слева является числом, а значение справа - строкой, то есть у этих значений разные типы данных.
+    </p>
 
     <h1>Гибкое сравнение в PHP</h1>
 
@@ -162,47 +168,47 @@
         <tr>
         <td>true</td>
         <td><?php echo $a ?></td>
-        <td><?php echo $b ?></td>
+        <td><?php echo $b ?>0</td>
         <td><?php echo $c ?></td>
-        <td><?php echo $d ?></td>
+        <td><?php echo $d ?>0</td>
         <td><?php echo $e ?></td>
         <td><?php echo $f ?></td>
-        <td><?php echo $g ?></td>
+        <td><?php echo $g ?>0</td>
         <td><?php echo $h ?></td>
         </tr>
 
         <tr>
         <td>false</td>
-        <td><?php echo $aa ?></td>
+        <td><?php echo $aa ?>0</td>
         <td><?php echo $bb ?></td>
-        <td><?php echo $cc ?></td>
+        <td><?php echo $cc ?>0</td>
         <td><?php echo $dd ?></td>
-        <td><?php echo $ee ?></td>
-        <td><?php echo $ff ?></td>
+        <td><?php echo $ee ?>0</td>
+        <td><?php echo $ff ?>0</td>
         <td><?php echo $gg ?></td>
-        <td><?php echo $hh ?></td>
+        <td><?php echo $hh ?>0</td>
         </tr>
 
         <tr>
         <td>1</td>
         <td><?php echo $aa_1 ?></td>
-        <td><?php echo $bb_2 ?></td>
+        <td><?php echo $bb_2 ?>0</td>
         <td><?php echo $cc_3 ?></td>
-        <td><?php echo $dd_4 ?></td>
-        <td><?php echo $ee_5 ?></td>
+        <td><?php echo $dd_4 ?>0</td>
+        <td><?php echo $ee_5 ?>0</td>
         <td><?php echo $ff_6 ?></td>
-        <td><?php echo $gg_7 ?></td>
-        <td><?php echo $hh_8 ?></td>
+        <td><?php echo $gg_7 ?>0</td>
+        <td><?php echo $hh_8 ?>0</td>
         </tr>
 
         <tr>
         <td>0</td>
-        <td><?php echo $aa_9 ?></td>
+        <td><?php echo $aa_9 ?>0</td>
         <td><?php echo $bb_10 ?></td>
-        <td><?php echo $cc_11 ?></td>
+        <td><?php echo $cc_11 ?>0</td>
         <td><?php echo $dd_12 ?></td>
-        <td><?php echo $ee_13 ?></td>
-        <td><?php echo $ff_14 ?></td>
+        <td><?php echo $ee_13 ?>0</td>
+        <td><?php echo $ff_14 ?>0</td>
         <td><?php echo $gg_15 ?></td>
         <td><?php echo $hh_16 ?></td>
         </tr>
@@ -210,46 +216,46 @@
         <tr>
         <td>-1</td>
         <td><?php echo $aa_18 ?></td>
-        <td><?php echo $bb_19 ?></td>
-        <td><?php echo $cc_20 ?></td>
-        <td><?php echo $dd_21 ?></td>
+        <td><?php echo $bb_19 ?>0</td>
+        <td><?php echo $cc_20 ?>0</td>
+        <td><?php echo $dd_21 ?>0</td>
         <td><?php echo $ee_22 ?></td>
-        <td><?php echo $ff_23 ?></td>
-        <td><?php echo $gg_24 ?></td>
-        <td><?php echo $hh_25 ?></td>
+        <td><?php echo $ff_23 ?>0</td>
+        <td><?php echo $gg_24 ?>0</td>
+        <td><?php echo $hh_25 ?>0</td>
         </tr>
 
         <tr>
         <td>'1'</td>
         <td><?php echo $aa_26 ?></td>
-        <td><?php echo $bb_27 ?></td>
+        <td><?php echo $bb_27 ?>0</td>
         <td><?php echo $cc_28 ?></td>
-        <td><?php echo $dd_29 ?></td>
-        <td><?php echo $ee_30 ?></td>
+        <td><?php echo $dd_29 ?>0</td>
+        <td><?php echo $ee_30 ?>0</td>
         <td><?php echo $ff_31 ?></td>
-        <td><?php echo $gg_32 ?></td>
-        <td><?php echo $hh_33 ?></td>
+        <td><?php echo $gg_32 ?>0</td>
+        <td><?php echo $hh_33 ?>0</td>
         </tr>
 
         <td>null</td>
-        <td><?php echo $aa_34 ?></td>
+        <td><?php echo $aa_34 ?>0</td>
         <td><?php echo $bb_35 ?></td>
-        <td><?php echo $cc_36 ?></td>
+        <td><?php echo $cc_36 ?>0</td>
         <td><?php echo $dd_37 ?></td>
-        <td><?php echo $ee_38 ?></td>
-        <td><?php echo $ff_39 ?></td>
+        <td><?php echo $ee_38 ?>0</td>
+        <td><?php echo $ff_39 ?>0</td>
         <td><?php echo $gg_40 ?></td>
-        <td><?php echo $hh_41 ?></td>
+        <td><?php echo $hh_41 ?>0</td>
         </tr>
 
         <td>'php'</td>
         <td><?php echo $aa_42 ?></td>
-        <td><?php echo $bb_43 ?></td>
-        <td><?php echo $cc_44 ?></td>
+        <td><?php echo $bb_43 ?>0</td>
+        <td><?php echo $cc_44 ?>0</td>
         <td><?php echo $dd_45 ?></td>
-        <td><?php echo $ee_46 ?></td>
-        <td><?php echo $ff_47 ?></td>
-        <td><?php echo $gg_48 ?></td>
+        <td><?php echo $ee_46 ?>0</td>
+        <td><?php echo $ff_47 ?>0</td>
+        <td><?php echo $gg_48 ?>0</td>
         <td><?php echo $hh_49 ?></td>
         </tr>
 
@@ -347,94 +353,94 @@
         <tr>
         <td>true</td>
         <td><?php echo $a_ ?></td>
-        <td><?php echo $b_ ?></td>
-        <td><?php echo $c_ ?></td>
-        <td><?php echo $d_ ?></td>
-        <td><?php echo $e_?></td>
-        <td><?php echo $f_ ?></td>
-        <td><?php echo $g_ ?></td>
-        <td><?php echo $h_ ?></td>
+        <td><?php echo $b_ ?>0</td>
+        <td><?php echo $c_ ?>0</td>
+        <td><?php echo $d_ ?>0</td>
+        <td><?php echo $e_?>0</td>
+        <td><?php echo $f_ ?>0</td>
+        <td><?php echo $g_ ?>0</td>
+        <td><?php echo $h_ ?>0</td>
         </tr>
 
         <tr>
         <td>false</td>
-        <td><?php echo $aa_ ?></td>
+        <td><?php echo $aa_ ?>0</td>
         <td><?php echo $bb_ ?></td>
-        <td><?php echo $cc_ ?></td>
-        <td><?php echo $dd_ ?></td>
-        <td><?php echo $ee_ ?></td>
-        <td><?php echo $ff_ ?></td>
-        <td><?php echo $gg_ ?></td>
-        <td><?php echo $hh_ ?></td>
+        <td><?php echo $cc_ ?>0</td>
+        <td><?php echo $dd_ ?>0</td>
+        <td><?php echo $ee_ ?>0</td>
+        <td><?php echo $ff_ ?>0</td>
+        <td><?php echo $gg_ ?>0</td>
+        <td><?php echo $hh_ ?>0</td>
         </tr>
 
         <tr>
         <td>1</td>
-        <td><?php echo $aa_1_ ?></td>
-        <td><?php echo $bb_2_ ?></td>
+        <td><?php echo $aa_1_ ?>0</td>
+        <td><?php echo $bb_2_ ?>0</td>
         <td><?php echo $cc_3_ ?></td>
-        <td><?php echo $dd_4_ ?></td>
-        <td><?php echo $ee_5_ ?></td>
-        <td><?php echo $ff_6_ ?></td>
-        <td><?php echo $gg_7_ ?></td>
-        <td><?php echo $hh_8_ ?></td>
+        <td><?php echo $dd_4_ ?>0</td>
+        <td><?php echo $ee_5_ ?>0</td>
+        <td><?php echo $ff_6_ ?>0</td>
+        <td><?php echo $gg_7_ ?>0</td>
+        <td><?php echo $hh_8_ ?>0</td>
         </tr>
 
         <tr>
         <td>0</td>
-        <td><?php echo $aa_9_ ?></td>
-        <td><?php echo $bb_10_ ?></td>
-        <td><?php echo $cc_11_ ?></td>
+        <td><?php echo $aa_9_ ?>0</td>
+        <td><?php echo $bb_10_ ?>0</td>
+        <td><?php echo $cc_11_ ?>0</td>
         <td><?php echo $dd_12_ ?></td>
-        <td><?php echo $ee_13_ ?></td>
-        <td><?php echo $ff_14_ ?></td>
-        <td><?php echo $gg_15_ ?></td>
-        <td><?php echo $hh_16_ ?></td>
+        <td><?php echo $ee_13_ ?>0</td>
+        <td><?php echo $ff_14_ ?>0</td>
+        <td><?php echo $gg_15_ ?>0</td>
+        <td><?php echo $hh_16_ ?>0</td>
         </tr>
 
         <tr>
         <td>-1</td>
-        <td><?php echo $aa_18_ ?></td>
-        <td><?php echo $bb_19_ ?></td>
-        <td><?php echo $cc_20_ ?></td>
-        <td><?php echo $dd_21_ ?></td>
+        <td><?php echo $aa_18_ ?>0</td>
+        <td><?php echo $bb_19_ ?>0</td>
+        <td><?php echo $cc_20_ ?>0</td>
+        <td><?php echo $dd_21_ ?>0</td>
         <td><?php echo $ee_22_ ?></td>
-        <td><?php echo $ff_23_ ?></td>
-        <td><?php echo $gg_24_ ?></td>
-        <td><?php echo $hh_25_ ?></td>
+        <td><?php echo $ff_23_ ?>0</td>
+        <td><?php echo $gg_24_ ?>0</td>
+        <td><?php echo $hh_25_ ?>0</td>
         </tr>
 
         <tr>
         <td>'1'</td>
-        <td><?php echo $aa_26_ ?></td>
-        <td><?php echo $bb_27_ ?></td>
-        <td><?php echo $cc_28_ ?></td>
-        <td><?php echo $dd_29_ ?></td>
-        <td><?php echo $ee_30_ ?></td>
+        <td><?php echo $aa_26_ ?>0</td>
+        <td><?php echo $bb_27_ ?>0</td>
+        <td><?php echo $cc_28_ ?>0</td>
+        <td><?php echo $dd_29_ ?>0</td>
+        <td><?php echo $ee_30_ ?>0</td>
         <td><?php echo $ff_31_ ?></td>
-        <td><?php echo $gg_32_?></td>
-        <td><?php echo $hh_33_ ?></td>
+        <td><?php echo $gg_32_?>0</td>
+        <td><?php echo $hh_33_ ?>0</td>
         </tr>
 
         <td>null</td>
-        <td><?php echo $aa_34_ ?></td>
-        <td><?php echo $bb_35_ ?></td>
-        <td><?php echo $cc_36_ ?></td>
-        <td><?php echo $dd_37_ ?></td>
-        <td><?php echo $ee_38_ ?></td>
-        <td><?php echo $ff_39_ ?></td>
+        <td><?php echo $aa_34_ ?>0</td>
+        <td><?php echo $bb_35_ ?>0</td>
+        <td><?php echo $cc_36_ ?>0</td>
+        <td><?php echo $dd_37_ ?>0</td>
+        <td><?php echo $ee_38_ ?>0</td>
+        <td><?php echo $ff_39_ ?>0</td>
         <td><?php echo $gg_40_ ?></td>
-        <td><?php echo $hh_41_?></td>
+        <td><?php echo $hh_41_?>0</td>
         </tr>
 
         <td>'php'</td>
-        <td><?php echo $aa_42_ ?></td>
-        <td><?php echo $bb_43_ ?></td>
-        <td><?php echo $cc_44_ ?></td>
-        <td><?php echo $dd_45_ ?></td>
-        <td><?php echo $ee_46_ ?></td>
-        <td><?php echo $ff_47_ ?></td>
-        <td><?php echo $gg_48_ ?></td>
+        <td><?php echo $aa_42_ ?>0</td>
+        <td><?php echo $bb_43_ ?>0</td>
+        <td><?php echo $cc_44_ ?>0</td>
+        <td><?php echo $dd_45_ ?>0</td>
+        <td><?php echo $ee_46_ ?>0</td>
+        <td><?php echo $ff_47_ ?>0</td>
+        <td><?php echo $gg_48_ ?>0</td>
         <td><?php echo $hh_49_ ?></td>
         </tr>
 
